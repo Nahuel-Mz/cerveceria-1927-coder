@@ -35,6 +35,11 @@ footer {
   footer .footer__redes {
     display: flex;
     gap: 30px; }
+    footer .footer__redes a {
+      color: #fff;
+      font-size: 1.5rem; }
+      footer .footer__redes a:hover {
+        color: #ffb30e; }
 
 .hero {
   display: flex;
@@ -153,7 +158,8 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-wrap: wrap; }
     .nosotros .nosotros_clientes p {
       color: #fff;
       font-size: 1.4rem;
@@ -366,16 +372,24 @@ footer {
     gap: 20px;
     height: calc(700px - 60px);
     justify-content: center; }
-  .hero_img {
+  .hero .hero_img {
     width: 400px; }
   .hero p {
     font-size: 1rem; }
-  .nosotros_img {
+  .nosotros .nosotros_cerveceria .nosotros_img {
     width: 400px; }
   .nosotros_cerveceria {
     gap: 20px; }
+  .nosotros .nosotros_clientes .nosotros_img {
+    width: 400px; }
   .nosotros_clientes {
     gap: 20px; }
+  .nosotros .nosotros_cerveceria p {
+    font-size: 1rem;
+    width: 100%; }
+  .nosotros .nosotros_clientes p {
+    font-size: 1rem;
+    width: 100%; }
   .contact h1 {
     padding: 30px 0 0 0; }
   .card {
@@ -448,7 +462,7 @@ footer {
     } */
   .hero p {
     width: 90%; }
-  .container_products {
+  .products .container_products {
     grid-template-columns: repeat(1, 1fr); }
   .products h1 {
     font-size: 1.5rem;
