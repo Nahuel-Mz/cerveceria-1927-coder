@@ -1,23 +1,11 @@
-.hero {
-    display: flex;
-    height: calc(600px - 60px);
-    justify-content: space-around;
-    align-items: center;
-    .hero_img{
-        width: 600px;
-        border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
-    }
-    p{
-        font-family: "Poppins", sans-serif;
-        text-align: center;
-        width: 50%;
-        line-height: 2;
-        font-weight: 600;
-        color: #c5d3d5;
-        font-size: 1.2rem;
-    }
-}
+@import "./base/generales";
+@import "./base/operaciones";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./components/inicio";
+@import "./components/productos";
+@import "./components/nosotros";
+@import "./components/contacto";
+@import "./components/clientes";
+@import "./base/media-query";

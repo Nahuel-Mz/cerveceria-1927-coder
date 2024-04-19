@@ -1,0 +1,50 @@
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 90px 20px;
+    height: 100vh;
+    .nosotros_cerveceria {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        p {
+            color: #fff;
+            font-size: 1.4rem;
+            font-family: "poppins",sans-serif;
+            width: 50%;
+            font-weight: 400;
+            text-align: center;
+        }
+        .nosotros_img {
+            width: 600px;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+        }
+    }
+    .nosotros_clientes {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        p {
+            color: #fff;
+            font-size: 1.4rem;
+            font-family: "poppins",sans-serif;
+            width: 50%;
+            font-weight: 400;
+            text-align: center;
+        }
+        .nosotros_img {
+            width: 600px;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+        }
+    }
+}

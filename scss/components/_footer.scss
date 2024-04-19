@@ -1,0 +1,18 @@
+footer {
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    p{
+        color: #fff;
+        font-family: "poppins", sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .footer__redes{
+        display: flex;
+        gap: 30px;
+    }
+}

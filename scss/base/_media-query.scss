@@ -1,0 +1,293 @@
+/***** mediaQuery ******/
+
+@media (max-width:1300px) {
+    .hero_img {
+        width: 500px;
+    }
+
+    .container_cards {
+        flex-wrap: wrap;
+    }
+
+    .clients .container_cards_2 {
+        display: none;
+    }
+
+}
+
+@media (max-width:1100px) {
+    .products h1 {
+        font-size: 2rem;
+    }
+    .nosotros_img {
+        width: 500px;
+    }
+    .nosotros_cerveceria p{
+        font-size: 1.2rem;
+    }
+
+    .nosotros_clientes p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:992px) {
+    .hero {
+        gap: 20px;
+        height: calc(700px - 60px);
+        justify-content: center;
+    }
+
+    .hero_img {
+        width:400px
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .nosotros_img {
+        width:400px
+    }
+    .nosotros_cerveceria {
+        gap: 20px;
+    }
+
+    .nosotros_clientes {
+        gap: 20px;
+    }
+
+    .contact h1 {
+        padding: 30px 0 0 0;
+    }
+
+    .card {
+        width: 350px;
+        height: 200px;
+    }
+    
+    .card p {
+        width: 100%;
+        font-family: "poppins",sans-serif;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+
+    .clients {
+        padding: 0;
+        height: 100vh;
+    }
+
+    .clients h1 {
+        display: none;
+    }
+
+    .container_cards {
+        gap: 10px;
+        height: calc(100% - 200px);
+    }
+}
+
+@media (max-width:768px) {
+    /* header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    } */
+
+    /* .nav_ul_items a {
+        font-size: 0.9rem;
+    } */
+
+    .hero {
+        flex-direction: column;
+    }
+    
+    .hero p {
+        width: 70%;
+    }
+
+    .menu h1 {
+        font-size: 2rem;
+    }
+
+    .products h1 {
+        font-size: 1.5rem;
+    }
+
+    .nosotros_cerveceria {
+        flex-direction: column-reverse;
+    }
+
+    .nosotros_img {
+        width: 300px;
+    }
+
+    .nosotros_clientes {
+        flex-direction: column-reverse;
+    }
+
+    .nosotros_cerveceria p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .nosotros_clientes p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .contact h1 {
+        padding: 30px 0 0 0;
+        font-size: 2rem;
+    }
+
+    .img_2 { 
+        grid-row: 1/3;
+        object-fit: cover;
+    }
+
+    .clients h1 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    .footer__redes {
+        gap: 10px;
+    }
+
+    .footer__redes a {
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+@media (max-width:576px) {
+    
+    /* .nav_ul_items a {
+        font-size: 0.8rem;
+    } */
+    
+    .hero p {
+        width: 90%;
+        
+    }
+
+    .container_products {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .products h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .img_2 { 
+        grid-row: 1;
+        object-fit: cover;
+    }
+
+    .img_4 {
+        grid-column: 1;
+        object-fit: cover;
+    }
+
+    .container_contact iframe{
+        width: 400px;
+        height: 200px;
+    }
+
+    .clients h1 {
+        font-size: 1.2rem;
+    }
+
+    .nosotros_cerveceria p {
+        font-size: 1rem;
+    }
+
+    .nosotros_clientes p {
+        font-size: 1rem;
+    }
+
+    .nosotros_img {
+        width: 300px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero_img {
+        width: 300px;
+    }
+
+    .hero p {
+        width:85%;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .menu h1 {
+        font-size: 1.7rem;
+    }
+
+    .nosotros_cerveceria p {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+
+    .nosotros_clientes p {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+
+    .nosotros_img {
+        width: 200px;
+    }
+
+    footer p {
+        font-size: 0.6rem;
+    }
+
+    .container_products {
+        padding: 0 10px;
+    }
+
+    .contact h1 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+
+    .container_contact iframe {
+        width: 300px;
+    }
+
+
+.card {
+    width: 300px;
+}
+.products h1 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+}
+}

@@ -1,0 +1,112 @@
+.clients {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 60px) ;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+    gap: 30px;
+    h1 {
+        color: #ffb30e;
+        font-family: "poppins",sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.85);
+    }
+    .container_cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* padding: 20px; */
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            background-color: #1f1f1f;
+            border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -ms-border-radius: 1rem;
+            -o-border-radius: 1rem;
+            width: 400px;
+            height: 230px;
+            .info_card {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .stars {
+                    width: 100px;
+                }
+
+                .person {
+                    width: 60px;
+                    border-radius: 100%;
+                    -webkit-border-radius: 100%;
+                    -moz-border-radius: 100%;
+                    -ms-border-radius: 100%;
+                    -o-border-radius: 100%;
+                    flex-wrap:wrap;
+                }
+            }
+            p {
+                width: 90%;
+                color: #fff;
+                font-family: "poppins",sans-serif;
+                text-align: center;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .container_cards_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            background-color: #1f1f1f;
+            border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -ms-border-radius: 1rem;
+            -o-border-radius: 1rem;
+            width: 400px;
+            height: 230px;
+            .info_card {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .stars {
+                    width: 100px;
+                }
+
+                .person {
+                    width: 60px;
+                    border-radius: 100%;
+                    -webkit-border-radius: 100%;
+                    -moz-border-radius: 100%;
+                    -ms-border-radius: 100%;
+                    -o-border-radius: 100%;
+                    flex-wrap:wrap;
+                }
+            }
+            p {
+                width: 90%;
+                color: #fff;
+                font-family: "poppins",sans-serif;
+                text-align: center;
+                font-size: 1.1rem;
+            }
+    }
+}
