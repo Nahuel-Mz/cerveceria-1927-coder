@@ -9,6 +9,10 @@
         flex-wrap: wrap;
     }
 
+    .clients {
+        height: 100vh;
+    }
+
     .clients .container_cards_2 {
         display: none;
     }
@@ -19,9 +23,14 @@
     .products h1 {
         font-size: 2rem;
     }
-    .nosotros_img {
+    .nosotros .nosotros_cerveceria .nosotros_img {
         width: 500px;
     }
+
+    .nosotros .nosotros_clientes .nosotros_img {
+        width: 500px;
+    }
+
     .nosotros_cerveceria p{
         font-size: 1.2rem;
     }
@@ -130,26 +139,34 @@
         font-size: 1.5rem;
     }
 
-    .nosotros_cerveceria {
+    .nosotros .nosotros_cerveceria {
         flex-direction: column-reverse;
     }
 
-    .nosotros_img {
+    .nosotros .nosotros_cerveceria .nosotros_img {
         width: 300px;
     }
 
-    .nosotros_clientes {
+    .nosotros .nosotros_clientes .nosotros_img {
+        width: 300px;
+    }
+
+    .nosotros .nosotros_clientes {
         flex-direction: column-reverse;
     }
 
-    .nosotros_cerveceria p {
+    .nosotros .nosotros_cerveceria p {
         width: 100%;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
-    .nosotros_clientes p {
+    .nosotros .nosotros_clientes p {
         width: 100%;
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .clients .container_cards {
+        margin: 20px 0;
     }
 
     .contact h1 {
@@ -183,7 +200,9 @@
         font-size: 1.5rem;
     }
 
-
+    .products .container_products {
+        grid-template-columns: repeat(1,1fr);
+    }
 
 }
 
@@ -196,10 +215,6 @@
     .hero p {
         width: 90%;
         
-    }
-
-    .products .container_products {
-        grid-template-columns: repeat(1,1fr);
     }
 
     .products h1 {
@@ -245,7 +260,7 @@
 
 @media (max-width: 480px) {
 
-    .hero_img {
+    .hero .hero_img {
         width: 300px;
     }
 
@@ -259,12 +274,12 @@
         font-size: 1.7rem;
     }
 
-    .nosotros_cerveceria p {
+    .nosotros .nosotros_cerveceria p {
         font-size: 0.7rem;
         font-weight: 700;
     }
 
-    .nosotros_clientes p {
+    .nosotros .nosotros_clientes p {
         font-size: 0.7rem;
         font-weight: 700;
     }
@@ -285,6 +300,10 @@
         font-size: 1.5rem;
     }
 
+    .contact .container_contact form {
+        padding: 10px;
+    }
+
     form {
         padding: 10px;
     }
@@ -295,8 +314,12 @@
     }
 
 
-.card {
+    .clients .container_cards .card  {
     width: 300px;
+}
+
+.clients .container_cards .card p {
+    font-size: 0.9rem;
 }
 .products h1 {
     font-weight: 900;

@@ -142,7 +142,7 @@ footer {
     justify-content: space-around; }
     .nosotros .nosotros_cerveceria p {
       color: #fff;
-      font-size: 1.4rem;
+      font-size: 1rem;
       font-family: "poppins",sans-serif;
       width: 50%;
       font-weight: 400;
@@ -158,11 +158,10 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap; }
+    justify-content: space-around; }
     .nosotros .nosotros_clientes p {
       color: #fff;
-      font-size: 1.4rem;
+      font-size: 1rem;
       font-family: "poppins",sans-serif;
       width: 50%;
       font-weight: 400;
@@ -220,7 +219,7 @@ footer {
         color: #ffb30e;
         font-size: 1.4rem;
         font-family: "poppins",sans-serif; }
-      .contact .container_contact form form label {
+      .contact .container_contact form label {
         color: #fff;
         font-family: "poppins" , sans-serif;
         font-size: 1rem; }
@@ -285,7 +284,7 @@ footer {
       -ms-border-radius: 1rem;
       -o-border-radius: 1rem;
       width: 400px;
-      height: 230px; }
+      height: 200px; }
       .clients .container_cards .card .info_card {
         width: 100%;
         display: flex;
@@ -325,7 +324,7 @@ footer {
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     width: 400px;
-    height: 230px; }
+    height: 200px; }
     .clients .card .info_card {
       width: 100%;
       display: flex;
@@ -354,13 +353,17 @@ footer {
     width: 500px; }
   .container_cards {
     flex-wrap: wrap; }
+  .clients {
+    height: 100vh; }
   .clients .container_cards_2 {
     display: none; } }
 
 @media (max-width: 1100px) {
   .products h1 {
     font-size: 2rem; }
-  .nosotros_img {
+  .nosotros .nosotros_cerveceria .nosotros_img {
+    width: 500px; }
+  .nosotros .nosotros_clientes .nosotros_img {
     width: 500px; }
   .nosotros_cerveceria p {
     font-size: 1.2rem; }
@@ -426,18 +429,22 @@ footer {
     font-size: 2rem; }
   .products h1 {
     font-size: 1.5rem; }
-  .nosotros_cerveceria {
+  .nosotros .nosotros_cerveceria {
     flex-direction: column-reverse; }
-  .nosotros_img {
+  .nosotros .nosotros_cerveceria .nosotros_img {
     width: 300px; }
-  .nosotros_clientes {
+  .nosotros .nosotros_clientes .nosotros_img {
+    width: 300px; }
+  .nosotros .nosotros_clientes {
     flex-direction: column-reverse; }
-  .nosotros_cerveceria p {
+  .nosotros .nosotros_cerveceria p {
     width: 100%;
-    font-size: 1rem; }
-  .nosotros_clientes p {
+    font-size: 0.8rem; }
+  .nosotros .nosotros_clientes p {
     width: 100%;
-    font-size: 1rem; }
+    font-size: 0.8rem; }
+  .clients .container_cards {
+    margin: 20px 0; }
   .contact h1 {
     padding: 30px 0 0 0;
     font-size: 2rem; }
@@ -454,7 +461,9 @@ footer {
   .footer__redes {
     gap: 10px; }
   .footer__redes a {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .products .container_products {
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media (max-width: 576px) {
   /* .nav_ul_items a {
@@ -462,8 +471,6 @@ footer {
     } */
   .hero p {
     width: 90%; }
-  .products .container_products {
-    grid-template-columns: repeat(1, 1fr); }
   .products h1 {
     font-size: 1.5rem;
     text-align: center; }
@@ -488,7 +495,7 @@ footer {
     font-size: 0.8rem; } }
 
 @media (max-width: 480px) {
-  .hero_img {
+  .hero .hero_img {
     width: 300px; }
   .hero p {
     width: 85%;
@@ -496,10 +503,10 @@ footer {
     line-height: 1.2; }
   .menu h1 {
     font-size: 1.7rem; }
-  .nosotros_cerveceria p {
+  .nosotros .nosotros_cerveceria p {
     font-size: 0.7rem;
     font-weight: 700; }
-  .nosotros_clientes p {
+  .nosotros .nosotros_clientes p {
     font-size: 0.7rem;
     font-weight: 700; }
   .nosotros_img {
@@ -510,12 +517,16 @@ footer {
     padding: 0 10px; }
   .contact h1 {
     font-size: 1.5rem; }
+  .contact .container_contact form {
+    padding: 10px; }
   form {
     padding: 10px; }
   .container_contact iframe {
     width: 300px; }
-  .card {
+  .clients .container_cards .card {
     width: 300px; }
+  .clients .container_cards .card p {
+    font-size: 0.9rem; }
   .products h1 {
     font-weight: 900;
     font-size: 1.5rem;

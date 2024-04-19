@@ -451,7 +451,7 @@ textarea {
 
 /****** pseudoclases y pseudoelementos ******/
 
-.hover-link:hover {
+.nav.container-fluid div .hover-link:hover {
     color: #ffb30e !important;
 } 
 
@@ -588,11 +588,15 @@ textarea {
         font-size: 1.5rem;
     }
 
-    .nosotros_cerveceria {
+    .nosotros.nosotros_cerveceria {
         flex-direction: column-reverse;
     }
 
-    .nosotros_img {
+    .nosotros .nosotros_cerveceria .nosotros_img {
+        width: 300px;
+    }
+
+    .nosotros .nosotros_clientes .nosotros_img {
         width: 300px;
     }
 
