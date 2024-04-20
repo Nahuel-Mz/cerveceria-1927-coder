@@ -78,6 +78,11 @@
                 cursor: pointer;
                 font-weight: 600;
                 text-transform: uppercase;
+                &:hover {
+                    color: #ffb30e;
+                    background-color: transparent;
+                    border: 1px solid #ffb30e;
+                }
             }
         }
     }

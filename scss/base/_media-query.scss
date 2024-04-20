@@ -105,13 +105,13 @@
     }
 
 
-    .clients {
-        padding: 0;
-        height: 100vh;
-    }
+    // .clients {
+    //     padding: 0;
+    //     height: 100vh;
+    // }
 
     .clients h1 {
-        display: none;
+        display: flex;
     }
 
     .container_cards {
@@ -243,10 +243,6 @@
         font-size: 1rem;
     }
 
-    .nosotros_img {
-        width: 300px;
-    }
-
     footer p {
         font-size: 0.8rem;
     }
@@ -278,7 +274,11 @@
         font-weight: 700;
     }
 
-    .nosotros_img {
+    .nosotros .nosotros_cerveceria .nosotros_img {
+        width: 200px;
+    }
+
+    .nosotros .nosotros_clientes .nosotros_img {
         width: 200px;
     }
 
@@ -286,7 +286,7 @@
         font-size: 0.6rem;
     }
 
-    .container_products {
+    .products .container_products {
         padding: 0 10px;
     }
 
@@ -303,7 +303,7 @@
     }
 
 
-    .container_contact iframe {
+    .contact .container_contact iframe {
         width: 300px;
     }
 
