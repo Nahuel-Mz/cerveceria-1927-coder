@@ -476,6 +476,8 @@ footer {
   .container_contact iframe {
     width: 400px;
     height: 200px; }
+  .contact .container_contact form {
+    padding: 10px; }
   .clients h1 {
     font-size: 1.2rem; }
   .nosotros_cerveceria p {
@@ -510,8 +512,6 @@ footer {
     padding: 0 10px; }
   .contact h1 {
     font-size: 1.5rem; }
-  .contact .container_contact form {
-    padding: 10px; }
   form {
     padding: 10px; }
   .contact .container_contact iframe {
