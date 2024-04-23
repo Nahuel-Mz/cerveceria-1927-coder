@@ -221,7 +221,7 @@ footer {
         color: #fff;
         font-family: "poppins" , sans-serif;
         font-size: 1rem; }
-      .contact .container_contact form input, .contact .container_contact form textarea {
+      .contact .container_contact form input {
         padding: 14px 30px;
         border: none;
         outline: none;
@@ -232,7 +232,8 @@ footer {
         -o-border-radius: 8px;
         text-align: center; }
       .contact .container_contact form textarea {
-        resize: none; }
+        resize: none;
+        text-align: center; }
       .contact .container_contact form .bnt_form {
         padding: 20px 50px;
         border-radius: 8px;
