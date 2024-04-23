@@ -258,7 +258,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 90px 0;
-  height: 100vh;
+  min-height: 100vh;
   gap: 20px; }
   .clients h1 {
     color: #ffb30e;
@@ -355,8 +355,6 @@ footer {
     width: 500px; }
   .container_cards {
     flex-wrap: wrap; }
-  .clients {
-    height: 100vh; }
   .clients .container_cards_2 {
     display: none; }
   .nosotros .nosotros_cerveceria .nosotros_img {
