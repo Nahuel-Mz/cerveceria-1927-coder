@@ -9,6 +9,9 @@
   color: #fff;
   font-size: 2rem; }
 
+footer p, .hero p, .menu h1, .products h1, .nosotros .nosotros_cerveceria p, .nosotros .nosotros_clientes p, .contact h1, .contact .container_contact form h2, .contact .container_contact form label, .clients h1, .clients .container_cards .card p, .clients .card p {
+  font-family: "poppins" , sans-serif; }
+
 header nav div a .logo_nav {
   height: 50px;
   border-radius: 100%;
@@ -28,7 +31,6 @@ footer {
   text-align: center; }
   footer p {
     color: #fff;
-    font-family: "poppins", sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     margin: 0; }
@@ -42,10 +44,11 @@ footer {
         color: #ffb30e; }
 
 .hero {
-  display: flex;
   height: calc(600px - 60px);
+  display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  flex-direction: row; }
   .hero .hero_img {
     width: 600px;
     border-radius: 8px;
@@ -54,7 +57,6 @@ footer {
     -ms-border-radius: 8px;
     -o-border-radius: 8px; }
   .hero p {
-    font-family: "Poppins", sans-serif;
     text-align: center;
     width: 50%;
     line-height: 2;
@@ -65,16 +67,15 @@ footer {
 .menu {
   padding: 30px 0px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 50px; }
   .menu h1 {
     color: #ffb30e;
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
-    font-family: "poppins", sans-serif;
     font-weight: 800;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.85); }
   .menu .menu-flex {
@@ -85,16 +86,15 @@ footer {
 
 .products {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 90px 0;
   gap: 50px; }
   .products h1 {
     color: #ffb30e;
     font-size: 3rem;
     text-transform: uppercase;
-    font-family: "poopins", sans-serif;
     font-weight: 800;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.85); }
   .products .container_products {
@@ -131,18 +131,19 @@ footer {
 
 .nosotros {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   padding: 90px 20px;
   height: 100vh; }
   .nosotros .nosotros_cerveceria {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-around; }
+    flex-direction: row; }
     .nosotros .nosotros_cerveceria p {
       color: #fff;
       font-size: 1rem;
-      font-family: "poppins",sans-serif;
       width: 50%;
       font-weight: 400;
       text-align: center; }
@@ -155,13 +156,12 @@ footer {
       -o-border-radius: 8px; }
   .nosotros .nosotros_clientes {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-around; }
+    flex-direction: row-reverse; }
     .nosotros .nosotros_clientes p {
       color: #fff;
       font-size: 1rem;
-      font-family: "poppins",sans-serif;
       width: 50%;
       font-weight: 400;
       text-align: center; }
@@ -175,9 +175,9 @@ footer {
 
 .contact {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 50px;
   /* height: 100vh; */
   padding: 90px 0; }
@@ -185,7 +185,6 @@ footer {
     color: #ffb30e;
     font-size: 3rem;
     text-transform: uppercase;
-    font-family: "poppins",sans-serif;
     font-weight: 800;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.85);
     padding: 30px; }
@@ -199,14 +198,14 @@ footer {
     margin: 50px; }
     .contact .container_contact form {
       display: flex;
+      justify-content: center;
+      align-items: center;
       flex-direction: column;
       background-color: #1f1f1f;
       /* width: 500px;
             height: 700px; */
       padding: 50px;
       gap: 20px;
-      align-items: center;
-      justify-content: center;
       border-radius: 8px;
       -webkit-border-radius: 8px;
       -moz-border-radius: 8px;
@@ -215,11 +214,9 @@ footer {
       border: 3px dashed #ffb30e; }
       .contact .container_contact form h2 {
         color: #ffb30e;
-        font-size: 1.4rem;
-        font-family: "poppins",sans-serif; }
+        font-size: 1.4rem; }
       .contact .container_contact form label {
         color: #fff;
-        font-family: "poppins" , sans-serif;
         font-size: 1rem; }
       .contact .container_contact form input, .contact .container_contact form textarea {
         padding: 14px 30px;
@@ -255,15 +252,14 @@ footer {
 
 .clients {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 90px 0;
   min-height: 100vh;
   gap: 20px; }
   .clients h1 {
     color: #ffb30e;
-    font-family: "poppins",sans-serif;
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -272,13 +268,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     gap: 5px;
     /* padding: 20px; */ }
     .clients .container_cards .card {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       gap: 10px;
       background-color: #1f1f1f;
       border-radius: 1rem;
@@ -291,8 +288,9 @@ footer {
       .clients .container_cards .card .info_card {
         width: 100%;
         display: flex;
+        justify-content: space-around;
         align-items: center;
-        justify-content: space-around; }
+        flex-direction: row; }
         .clients .container_cards .card .info_card .stars {
           width: 100px; }
         .clients .container_cards .card .info_card .person {
@@ -306,7 +304,6 @@ footer {
       .clients .container_cards .card p {
         width: 90%;
         color: #fff;
-        font-family: "poppins",sans-serif;
         text-align: center;
         font-size: 1.1rem; }
   .clients .container_cards_2 {
@@ -316,9 +313,9 @@ footer {
     gap: 5px; }
   .clients .card {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 10px;
     background-color: #1f1f1f;
     border-radius: 1rem;
@@ -331,8 +328,9 @@ footer {
     .clients .card .info_card {
       width: 100%;
       display: flex;
+      justify-content: space-around;
       align-items: center;
-      justify-content: space-around; }
+      flex-direction: row; }
       .clients .card .info_card .stars {
         width: 100px; }
       .clients .card .info_card .person {
@@ -346,7 +344,6 @@ footer {
     .clients .card p {
       width: 90%;
       color: #fff;
-      font-family: "poppins",sans-serif;
       text-align: center;
       font-size: 1.1rem; }
 

@@ -6,7 +6,7 @@ footer {
         text-align: center;
     p{
         color: nth($color , 1);
-        font-family: "poppins", sans-serif;
+        @extend %font;
         font-size: 1rem;
         text-transform: uppercase;
         margin: 0;

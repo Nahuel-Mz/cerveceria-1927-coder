@@ -1,17 +1,13 @@
 .nosotros {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    @include flex(flex,space-around,center,column);
     padding: 90px 20px;
     height: 100vh;
     .nosotros_cerveceria {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        @include flex(flex,space-around,center,row);
         p {
             color: nth($color, 1);
             font-size: 1rem;
-            font-family: "poppins",sans-serif;
+            @extend %font;
             width: 50%;
             font-weight: 400;
             text-align: center;
@@ -26,14 +22,11 @@
         }
     }
     .nosotros_clientes {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-around;
+        @include flex(flex,space-around,center,row-reverse);
         p {
             color: nth($color , 1);
             font-size: 1rem;
-            font-family: "poppins",sans-serif;
+            @extend %font;
             width: 50%;
             font-weight: 400;
             text-align: center;
