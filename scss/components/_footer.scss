@@ -5,7 +5,7 @@ footer {
         justify-content: space-around;
         text-align: center;
     p{
-        color: #fff;
+        color: nth($color , 1);
         font-family: "poppins", sans-serif;
         font-size: 1rem;
         text-transform: uppercase;
@@ -15,7 +15,7 @@ footer {
         display: flex;
         gap: 30px;
         a{
-            color: #fff;
+            color: nth($color , 1);
             font-size: 1.5rem;
             &:hover {
                 color: #ffb30e;

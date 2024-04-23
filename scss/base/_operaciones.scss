@@ -1,3 +1,31 @@
 //? operaciones 
 
-$color-letter:#c5d3d5;
+$font-size : 2rem;
+$title-size: 3rem;
+
+
+//! lista
+
+$color: 
+#fff,
+#1f1f1f,
+#ffb30e;
+
+
+
+
+//! extend
+
+%font {
+    font-family:"poppins" , sans-serif;
+} 
+
+
+// ? mixing
+
+@mixin flex ($flex, $justify, $aling,$direction){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direction;
+}

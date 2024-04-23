@@ -6,8 +6,8 @@
     padding: 90px 0;
     gap: 50px;
     h1 {
-        color: #ffb30e;
-        font-size: 3rem;
+        color: nth($color , 3);
+        font-size: $title-size;
         text-transform: uppercase;
         font-family: "poopins", sans-serif;
         font-weight: 800;

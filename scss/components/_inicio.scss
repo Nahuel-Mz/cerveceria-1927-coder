@@ -34,9 +34,9 @@
     align-items: center;
     gap: 50px;
     h1 {
-        color: #ffb30e;
+        color: nth($color , 3);
         text-align: center;
-        font-size: 3rem;
+        font-size: $title-size;
         text-transform: uppercase;
         font-family: "poppins", sans-serif;
         font-weight: 800;
