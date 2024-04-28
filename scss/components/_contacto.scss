@@ -1,7 +1,6 @@
 .contact {
     @include flex(flex,center,center,column);
     gap: 50px;
-    /* height: 100vh; */
     padding: 90px 0;
     h1 {
         color: nth($color , 3);
@@ -23,8 +22,6 @@
         form {
             @include flex(flex,center,center,column);
             background-color: nth($color , 2);
-            /* width: 500px;
-            height: 700px; */
             padding: 50px;
             gap: 20px;
             border-radius: 8px;
